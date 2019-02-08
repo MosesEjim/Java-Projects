@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="soundsystem.HomeController">
+   <children>
+      <ImageView fitHeight="490.0" fitWidth="724.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Fix-Conexant-HD-audio-microphone-driver-not-working-after-build-10041-update.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="298.0" layoutY="62.0" prefHeight="36.0" prefWidth="128.0" text="Host Created" textFill="#fffbfb">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="stopButton" layoutX="279.0" layoutY="221.0" prefHeight="80.0" prefWidth="183.0" style="-fx-background-color: #01579b; -fx-border-radius: 100pt; -fx-background-radius: 50pt;" text="Stop Streaming" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="soundsystem.HomeController">
+   <children>
+      <ImageView fitHeight="490.0" fitWidth="724.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Fix-Conexant-HD-audio-microphone-driver-not-working-after-build-10041-update.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="hostButton" layoutX="268.0" layoutY="108.0" onAction="#createHost" prefHeight="80.0" prefWidth="183.0" style="-fx-background-color: #01579b; -fx-background-radius: 50pt;" text="Host " textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="clientButton" layoutX="269.0" layoutY="211.0" onAction="#joinHost" prefHeight="80.0" prefWidth="183.0" style="-fx-background-color: #01579b; -fx-border-radius: 100pt; -fx-background-radius: 50pt;" text="Join Host" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
